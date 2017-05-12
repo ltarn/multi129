@@ -1,0 +1,19 @@
+.test{
+	background: url(3.jpg);
+	width: 1600px;
+	height: 800px;
+}
+.mario2{
+	background: url(Mario3.png);
+	width: 191px;
+	height: 296px;
+	position: relative;
+	animation: marioo 30s linear 10s infinite alternate;
+}
+@keyframes marioo{
+	0%   {background: url(Mario3.png); left: 0px; top: 0px;}
+    25%  {background: url(Mario_2.png); left: 1400px; top: 0px;}
+    50%  {background: url(Mario3.png); left: 1400px; top: 500px;}
+    75%  {background: url(Mario_2.png); left: 0px; top: 500px;}
+    100% {background: url(Mario3.png); left: 0px; top: 0px;}
+}
